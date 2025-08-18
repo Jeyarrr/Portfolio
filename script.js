@@ -2,7 +2,7 @@ const navbar = document.getElementById('navbar');
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
-const downloadCvBtn = document.getElementById('download-resume-btn');
+const downloadResumeBtn = document.getElementById('download-resume-btn');
 const viewWorkBtn = document.getElementById('view-work-btn');
 const contactForm = document.getElementById('contact-form');
 const successModal = document.getElementById('success-modal');
@@ -48,7 +48,7 @@ function initNavigation() {
 
 function initButtons() {
     downloadResumeBtn.addEventListener('click', function() {
-        const CvUrl = 'https://drive.google.com/file/d/1ADPZLQ3ilabUIWpdIF5tB1abZfdqkS49/view?usp=sharing';
+        const ResumeUrl = 'https://drive.google.com/file/d/1ADPZLQ3ilabUIWpdIF5tB1abZfdqkS49/view?usp=sharing';
         const link = document.createElement('a');
         link.href = ResumeUrl;
         link.setAttribute('download', 'My-Resume.pdf');

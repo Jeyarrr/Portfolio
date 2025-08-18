@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay-r Casano - Portfolio</title>
+    <meta name="description" content="Jay-r Casano - Computer Science student from AISAT College Dasmariñas seeking on-the-job training opportunities in web development.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">JBC</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact Me</a>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="home-title">
+                        Hi, I'm <span class="text-primary">Jay-r Casano</span>
+                    </h1>
+                    <p class="home-description">
+                        A passionate Computer Science student from AISAT College Dasmariñas currently seeking on-the-job training opportunities to apply my knowledge and gain real-world experience in the tech industry.
+                    </p>
+                    <div class="home-buttons">
+                        <button class="btn btn-primary" id="download-resume-btn">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </button>
+                        <button class="btn btn-outline" id="view-work-btn">
+                            View My Work
+                        </button>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="profile-image-container">
+                        <div class="profile-image-placeholder">
+                          <img src="img/profpic.jpg">
+                            <span>Profile Photo</span>
+                        </div>
+                        <div class="profile-image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-subtitle">Who Am I?</h3>
+                    <p class="about-description">
+                        I'm Jay-r B. Casano, currently pursuing my degree in Computer Science at AISAT College Dasmariñas. As an aspiring CS student, I'm eager to bridge the gap between academic knowledge and practical application through on-the-job training.
+                    </p>
+                    <p class="about-description">
+                        My journey in technology began with a curiosity about how things work, which evolved into a passion for problem-solving and creating digital solutions. I believe that hands-on experience is crucial for professional growth, and I'm excited to contribute while learning from industry experts.
+                    </p>
+                </div>
+
+                <div class="tech-stack">
+                    <h3 class="tech-title">Tech Stack</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-html5 tech-icon html-color"></i>
+                            <div class="tech-info">
+                                <h4>HTML5</h4>
+                                <p>Semantic markup</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt tech-icon css-color"></i>
+                            <div class="tech-info">
+                                <h4>CSS3</h4>
+                                <p>Modern styling</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js-square tech-icon js-color"></i>
+                            <div class="tech-info">
+                                <h4>JavaScript</h4>
+                                <p>Interactive experiences</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-figma tech-icon figma-color"></i>
+                            <div class="tech-info">
+                                <h4>Figma</h4>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Here are my projects that showcase my skills and learning journey in web development.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="img/jbnav1.png" alt="Project 1" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">JB Nav Enterprise</h3>
+                        <p class="project-description">
+                            I designed and developed a responsive website for JB Nav Enterprise, a premium party and catering company. The project's goal was to create a strong online presence that effectively showcases the company's services, builds client trust, and generates event inquiries.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag html-tag">HTML</span>
+                            <span class="tech-tag css-tag">CSS</span>
+                            <span class="tech-tag js-tag">JavaScript</span>
+                        </div>
+                        <button class="btn btn-primary project-btn" onclick="openProject('https://jeyarrr.github.io/JB-Nav-Enterprise/')">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="img/jbank.png" alt="Project 2" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">JBank</h3>
+                        <p class="project-description">
+                            I designed a mobile banking application called JBank using Figma, focusing on a secure, user-centric, and intuitive experience. The project involved creating a complete design system with prototyping for core banking functionalities.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag figma-tag">Figma</span>
+                        </div>
+                        <button class="btn btn-primary project-btn" onclick="openProject('https://www.figma.com/design/qfXGW9uZCLZubzEPDtqDV8/JBank--We-Trust-?t=8RTU7kHTis9SC0zG-1')">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Let's Connect! I'm currently looking for on-the-job training opportunities where I can contribute and grow. Feel free to reach out or just to say hello!
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <a href="emailto:jayrcasano01@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>jayrcasano01@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="tel:09260710027" class="contact-link">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>09260710027</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-link">
+
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>General Trias, Cavite</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4 class="social-title">Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/jayr-casano-b3760a238/" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Jeyarrr" target="_blank" class="social-link github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/jayr.casano.33/" target="_blank" class="social-link facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" id="firstName" name="firstName" class="form-input" placeholder="Enter your first name" required>
+                                <span class="error-message" id="firstName-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" class="form-input" placeholder="Enter your last name" required>
+                                <span class="error-message" id="lastName-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="Enter your phone number">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Enter your message" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">&copy; Jay-r Casano.</p>
+                <p class="footer-tagline">I may not know everything, but I am committed to learning and growing with every challenges.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-check-circle success-icon"></i>
+                <h3>Message Sent!</h3>
+            </div>
+            <p>Thank you for your message. I'll get back to you soon.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
